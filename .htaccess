@@ -1,3 +1,8 @@
 RewriteEngine On
-RewriteRule   index.html /   
-RewriteRule   hombro.html /hombro   
+RewriteEngine On
+RewriteRule   ^hombro/?$   hombro.html   [NC]  
+RewriteRule   ^rodilla/?$  rodilla.html   [NC]  
+RewriteRule   ^cirugia-artroscopica/?$   cirugia-artroscopica.html   [NC]  
+RewriteRule   ^galeria/?$   galeria.html   [NC]  
+RewriteRule   ^contacto/?$   contacto.html   [NC]  
+RewriteRule   ^cv/?$   cv.html   [NC]  
