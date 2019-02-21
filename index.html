@@ -6,86 +6,120 @@ and open the template in the editor.
 -->
 <html>
     <head>
-	<title>Dr Sidney Gómez</title>
+	<title>Tu hombro y rodilla</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Dr Sidney Gómez. Médico traumatólogo venezolano especializado en cirugía artroscópica de hombro y rodilla">
 	<meta name="robots" content="index, follow" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	
 	<link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16">  
 	<link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32">  
-	<link rel="icon" type="image/png" href="img/favicon-96x96.png" sizes="96x96">  
+	<link rel="icon" type="image/png" href="img/favicon-96x96.png" sizes="96x96"> 
 	
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">	
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	
+	<!-- Compiled and minified CSS -->
+	<link rel="stylesheet" href="/css/materialize.css">
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>            
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	<!-- Compiled and minified JavaScript -->
+	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            
     </head>
-    <body class="blue lighten-5">
+    <body>
 	<div class="container">
+	    <!-- MENU -->
 	    <nav>
-		<div class="fixed nav-wrapper teal darken-1">
+		<div class="nav-wrapper">
+		    <a href="#!" class="brand-logo"><img src="/img/knee_logo.jpeg" alt="knee logo" title="logo rodilla"/>Dr Sidney Gómez</a>
 		    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 		    <ul class="right hide-on-med-and-down">
-			<li class="active"><a href="/">Inicio</a></li>
-			<li><a href="/hombro">Hombro</a></li>
+			<li><a href="/" class="active">Principal</a></li>
 			<li><a href="/rodilla">Rodilla</a></li>
-			<li><a href="/cirugia-artroscopica">Cirugía Artroscópica</a></li>
-			<li><a href="/galeria">Galería</a></li>
-			<li><a href="/contacto">Contacto</a></li>
+			<li><a href="/hombro">Hombro</a></li>
+			<li><a href="#contact">Contact</a></li>
 			<li><a href="/cv">CV</a></li>
+			<li class="numbers">
+			    <img src="/img/phone_logo.jpeg" alt="phone" title="logo tel"/>
+			    <span>0212.577.90.95 0212.577.65.46</span>
+			</li>
 		    </ul>
 		</div>
 	    </nav>
 
 	    <ul class="sidenav" id="mobile-demo">
-		<li class="active"><a href="/">Inicio</a></li>
-		<li><a href="/hombro">Hombro</a></li>
+		<li><a href="/">Principal</a></li>
 		<li><a href="/rodilla">Rodilla</a></li>
-		<li><a href="/cirugia-artroscopica">Cirugía Artroscópica</a></li>
-		<li><a href="/galeria">Galería</a></li>
-		<li><a href="/contacto">Contacto</a></li>
+		<li><a href="/hombro">Hombro</a></li>
+		<li><a href="#contact">Contact</a></li>
 		<li><a href="/cv">CV</a></li>
 	    </ul>
+	    <!-- MENU -->
+	    
 	    <div class="carousel carousel-slider">
-		<a class="carousel-item" href="#one!"><img src="img/sliders/home.jpg"></a>
+		<img src="/img/sliders/istockphoto-846633156-2048x2048.jpg">
 	    </div>
-	    <div class="section white">
+	    
+	    <div class="row">
+		<div class="col s12">
+		    <h1>Dr. Sidney Gómez especialista en cirugía artroscópica de hombro y rodilla</h1>
+		</div>
+	    </div>
+	    <div class="row">
+		<div class="col s12 m6 l6">
+		    <p>La artroscopia es un procedimiento quirúrgico que se usa en Traumatología y Cirugía Ortopédica para diagnosticar y, al mismo tiempo, en muchas ocasiones tratar, diversos problemas y enfermedades que se localizan en el interior de una articulación</p>
+		    <p>Mediante la artroscopia, los médicos pueden diagnosticar y tratar una variedad de afecciones en las articulaciones, más frecuentemente las que afectan las siguientes partes: Rodilla, Hombro, Codo, Tobillo, Cadera, Muñeca</p>
+		    <p>Aunque la experiencia varíe según el motivo del procedimiento y según la articulación involucrada, algunos aspectos de la artroscopia son bastante comunes. Deberás quitarte tu ropa habitual y joyas, y colocarte una bata de hospital o pantalones cortos. Un miembro del personal de enfermería te colocará un catéter intravenoso en la mano o en el antebrazo e inyectará un sedante suave.</p>
+		    <p><a href="/cirugia-artroscopica"> <i class="tiny material-icons">chevron_right</i> Saber mas</a></p>
+		</div>
+		<div class="col s12 m6 l6">
+		    <img class="responsive-img" src="/img/medical.jpg" alt="medical-talk" title="medicos hablando">
+		</div>
+	    </div>
+	    <section>
+	    <div class="row row-grey">
+		<div class="col s12 m6 l6">
+		    <img class="circle responsive-img" src="/img/doctor.jpg" alt="sidney-gomez" title="Sidney Gomez">
+		</div>
+		<div class="col s12 m6 l6">
+		    <h2><i class="medium material-icons">person</i> Dr. Sidney Gómez</h2>
+		    <p>Con gran cantidad de cursos de formación y especialización orientados hacia el área de Cirugía Ortopédica y Traumatología, el Dr. Sidney Gómez desarrolla actualmente su trabajo en el Hospital de Clínicas Caracas, en el Centro de Medicina Deportiva Sportmedical CDD y es Miembro de la Comisión Médica del Touring y Automóvil Club de Venezuela</p>
+		    <p><a href="/cv"> <i class="tiny material-icons">chevron_right</i> Saber mas</a></p>
+		</div>
+	    </div>
+	    </section>
+	    
+	    <section>	
 		<div class="row">
-		    <div class="col s12 m4 l4">
-			<div class="card">
-			    <div class="card-image">
-				<img src="img/shoulder.jpg">
-				<span class="card-title">Hombro</span>
-			    </div>
-			    <div class="card-content">
-				"La cirugía artroscópica o abierta del hombro se realiza con la finalidad de disminuir el dolor, tener mejor calidad de vida, mejorar las actividades de la vida diaria y volver al trabajo o al deporte" <strong>Dr. Sidney Gómez</strong>
-			    </div>
-			</div>
+		    <div class="col s12 center-align">
+			<h3>Nuestras especialidades</h3>
 		    </div>
-		    <div class="col s12 m8 l8">
-			<h1>Bienvenidos</h1>
-			<p>Esta es la página personal del Dr. Sidney Gómez, traumatólogo especialista en lesiones de hombro y rodilla. En esta página podrás encontrar información sobre las lesiones más comunes de hombro y rodilla, su tratamiento, además de información de citas y operaciones.</p>
-			<p>Adscrito a</p>
-			<img src="img/sanitas-venezuela.jpg" alt="sanitas-venezuela"/>
+		    <div class="col s12 m6 l6 center-align">
+			<h4>HOMBRO</h4>
+			<a href="/hombro" class="squared"> SABER MAS </a>
 		    </div>
+		    <div class="col s12 m6 l6 center-align">
+			<h4>RODILLA</h4>
+			<a href="/rodilla" class="squared"> SABER MAS </a>
+		    </div>
+		</div>
+	    </section>
+	    <section>	
+	    <div class="row row-grey" id="contact" style="margin-top:50px;">
+		<div class="col s12 center-align">
+		    <h3>CONTACTENOS</h3>
+		</div>
+		<div class="col s12 center-align">
+		    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15691.526370780586!2d-66.8989332!3d10.5099914!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xaadf5f044b56b763!2sHospital+de+Cl%C3%ADnicas+Caracas!5e0!3m2!1sfr!2sfr!4v1550763783601" width="800" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
 		</div>
 	    </div>
-	    <footer class="page-footer teal">
-		<div class="footer-copyright teal darken-1">
-		    <div class="container">
-			© 2018 
-		    </div>
-		</div>
-	    </footer>
+	    </section>
 	</div>
 	<script>
 	    $(document).ready(function(){
 		$('.sidenav').sidenav();
-		$('.carousel').carousel();
 	    });
-	    
 	</script>
     </body>
 </html>
